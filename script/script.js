@@ -8,12 +8,10 @@ const body = document.querySelector(".sprite-body");
 const timerEnd = function(){
     body.classList.remove("is-scrolling");
 };
-let timer = setTimeout(timerEnd, 100);
-const aaa = document.querySelector(".sheet")
+let timer = setTimeout(console.log("hi"), 100);
 
-aaa.addEventListener('click', function(){
+window.addEventListener('scroll', function(){
     body.classList.add("is-scrolling");
-    timer;
+    timer;clearTimeout(timer);
 })
 
-clearTimeout(timer);
