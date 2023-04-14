@@ -1,0 +1,121 @@
+:root {
+    --dark-green: #264653;
+    --dark-blue: #005AE0;
+    --cyan: #33C3E4;
+    --orange: #FFA10A;
+    --hot-orange: #FFA10A;
+    --red: #F50062;
+    --purple: #53175E;
+    --teal: #0AD88E;
+}
+
+*{
+    margin: 0;
+}
+
+@font-face {
+    src: url(../polices/Billy_2.0.ttf) format("truetype");
+    font-family: "Billy";
+}
+
+@font-face {
+    src: url(../polices/LemonJuice.otf) format("opentype");
+    font-family: "LemonJuice";
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p {
+    font-family: "Billy";
+}
+
+h1 {
+    font-family: "LemonJuice";
+    text-align: end;
+    padding-top: 5vw;
+    padding-right: 6vw;
+    font-size: 10vw;
+    color: white;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/img_arriere_plan/intro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.description {
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 50vw;
+    text-align: right;
+    padding: 2rem;
+    bottom: 0;
+}
+
+.scroll-down {
+    position: absolute;
+    width: 10vw;
+    right: 25vw;
+    top: 45vh;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+#chapitre-1 {
+    background-image: url(../img/img_arriere_plan/background-eau.jpg);
+}
+
+#chapitre-2 {
+    background-image: url(../img/img_arriere_plan/background-eau.jpg);
+}
+
+#chapitre-3 {
+    background-image: url(../img/img_arriere_plan/background-eau.jpg);
+}
+
+#chapitre-4 {
+    background-image: url(../img/img_arriere_plan/background-eau.jpg);
+}
+
+#chapitre-5 {
+    background-image: url(../img/img_arriere_plan/background-eau.jpg);
+}
+
+#chapitre-6 {
+    background-image: url(../img/img_arriere_plan/background-espace.jpg);
+}
+
+.sprite-body {
+    height: 1000vh;
+}
+
+.sheet {
+    background-image: url(../img/spritesheet_algues.png);
+    height: 30vw;
+    aspect-ratio: 1/1;
+    background-color: #F50062;
+    animation-name: algue;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(61);
+  animation-play-state: paused;
+  background-size: 6100%;
+  position: fixed;
+}
+
+@keyframes algue {
+    from { background-position: 0 0; }
+    to { background-position: -6100% 0; }} 
+
+.is-scrolling .sheet { 
+    animation-play-state: running;
+}
