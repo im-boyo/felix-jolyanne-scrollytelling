@@ -5,13 +5,15 @@ let anim = gsap.timeline().to(".scroll-down", {y: "10vmin", ease: "none", yoyo: 
 anim.play(0);
 
 const body = document.querySelector(".sprite-body");
-const timerEnd = function(){
+
+let timerEnd 
+function scrollStop(){
     body.classList.remove("is-scrolling");
 };
-let timer = setTimeout(console.log("hi"), 100);
 
 window.addEventListener('scroll', function(){
+    clearTimeout(timerEnd);
     body.classList.add("is-scrolling");
-    timer;clearTimeout(timer);
+    timerEnd = setTimeout(scrollStop, 100);
 })
 
