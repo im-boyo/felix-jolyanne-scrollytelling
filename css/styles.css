@@ -99,7 +99,7 @@ section {
 }
 
 .sheet {
-    background-image: url(../img/spritesheet_algues.png);
+    background-image: url(../img/img_elements_visuels/spritesheet_terre.png);
     height: 30vw;
     aspect-ratio: 1/1;
     background-color: #F50062;
