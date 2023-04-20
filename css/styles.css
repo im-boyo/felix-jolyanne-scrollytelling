@@ -119,3 +119,27 @@ section {
 .is-scrolling .sheet { 
     animation-play-state: running;
 }
+
+.sheet-planet {  
+    position: fixed;
+    right: 0;
+    background-image: url(../img/spritesheet_neptune.png);
+    height: 30vw;
+    aspect-ratio: 1/1;
+    background-color: #f5b400;
+    animation-name: planet;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(72);
+  animation-play-state: paused;
+  background-size: 7200%;
+
+}
+
+.is-scrolling .sheet-planet { 
+    animation-play-state: running;
+}
+
+@keyframes planet {
+    from { background-position: 0 0; }
+    to { background-position: -7200% 0; }} 
