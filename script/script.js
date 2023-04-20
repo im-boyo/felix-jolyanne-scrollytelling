@@ -4,7 +4,7 @@ let anim = gsap.timeline().to(".scroll-down", {y: "10vmin", ease: "none", yoyo: 
 
 anim.play(0);
 
-const body = document.querySelector(".sprite-body");
+const body = document.querySelector(".body");
 
 let timerEnd 
 function scrollStop(){
