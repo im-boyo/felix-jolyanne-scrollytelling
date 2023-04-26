@@ -165,15 +165,16 @@ section {
 .sable {
     position: absolute;
     bottom: 0;
+    width: 100vw;
 }
 
 .billy1 {
     position: absolute;
     height: 80vh;
-    left: 30vw;
+    right: 20vw;
 }
 
-.poisson-corps, .poisson-queue {
+#chapitre-1 .poisson-corps, #chapitre-1 .poisson-queue {
     position: absolute;
     height: 30vh;
     transform: scaleX(-1);
@@ -202,4 +203,34 @@ section {
     transform: scaleX(-1);
     right: 25vw;
     top: 30vh
+}
+
+.billyroche {
+    position: absolute;
+    height: 100vh;
+    bottom: -14vh;
+    right: 10vw;
+}
+
+.bulles1 {
+    position: absolute;
+    height: 10vw;
+    right: 40vw;
+    bottom: 50vh;
+}
+
+.coffre_haut {
+    position: absolute;
+    height: 15vh;
+}
+
+
+.medaillon {
+    position: absolute;
+}
+
+.coffre_base {
+    position: absolute;
+    height: 17vh;
+    top: 10vh;
 }
