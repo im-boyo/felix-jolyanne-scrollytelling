@@ -138,13 +138,12 @@ section {
 }
 
 
-.sheet-planet {  
+.neptune {  
     position: absolute;
     right: 0;
     background-image: url(../img/img_elements_visuels/spritesheet_neptune.png);
     height: 30vw;
     aspect-ratio: 1/1;
-    background-color: #f5b400;
     animation-name: planet;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -154,7 +153,7 @@ section {
 
 }
 
-.is-scrolling .sheet-planet { 
+.is-scrolling .neptune { 
     animation-play-state: running;
 }
 
@@ -167,6 +166,9 @@ section {
     bottom: 0;
     width: 100vw;
 }
+
+
+/*Chapitre 1*/
 
 .billy1 {
     position: absolute;
@@ -205,6 +207,8 @@ section {
     top: 30vh
 }
 
+/*Chapitre 2*/
+
 .billyroche {
     position: absolute;
     height: 100vh;
@@ -222,15 +226,192 @@ section {
 .coffre_haut {
     position: absolute;
     height: 15vh;
+    bottom: 35vh;
+    left: 15vw;
 }
 
 
 .medaillon {
     position: absolute;
+    height: 10vh;
+    left: 22vw;
+    bottom: 26vh;
 }
 
 .coffre_base {
     position: absolute;
     height: 17vh;
+    bottom: 10vh;
+    left: 15vw;
+}
+
+/*Chapitre 3*/
+
+.billyroche2 {
+    position: absolute;
+    height: 200vh;
+    right: 7vw;
+    top: -20vh;
+}
+
+#chapitre-3 .medaillon {
+    left: 17vw;
+    bottom: 25vh;
+    height: 15vh;
+}
+
+.lola1 {
+    position: absolute;
+    height: 170vh;
+    top: -35vh;
+}
+
+.bulles2 {
+    position: absolute;
+    height: 20vw;
+    left: 0vw;
+    bottom: 60vh;
+}
+
+/*Chapitre 4*/
+
+.billynage {
+    position: absolute;
+    height: 80vh;
+    top: 20vh;
+    right: 0;
+}
+
+.lolanage {
+    position: absolute;
+    height: 80vh;
     top: 10vh;
+    right: 7vw;
+}
+
+.poisson-groupe {
+    position: absolute;
+    height: 80vh;
+    top: 50%; 
+    transform: translateY(-50%);
+    right: 0;
+    opacity: 50%;
+}
+
+/*Chapitre 5*/
+
+.alguesavant {
+    position: absolute;
+    height: 140vh;
+    left: -15vw;
+}
+
+.alguesarriere {
+    position: absolute;
+    height: 120vh;
+    left: 2vw;
+}
+
+.grotte {
+    position: absolute;
+    height: 100vh;
+    left: 5vw;
+}
+
+.meduses {
+    position: absolute;
+    height: 155vh;
+}
+
+/*Chapitre 6*/
+
+.billy2 {
+    position: absolute;
+    height: 100vh;
+    left: 5vw;
+    top: 5vh;
+}
+
+.lola2 {
+    position: absolute;
+    height: 100vh;
+}
+
+#chapitre-6 .medaillon {
+    left: 40vw;
+}
+
+.poisson-blue-corps, .poisson-blue-queue{
+    position: absolute;
+    height: 60vh;
+    right: 15vw;
+    bottom: 0;
+}
+
+.billymains {
+    position: absolute;
+    height: 100vh;
+}
+
+.medaillon2 {
+    position: absolute;
+    height: 100vh;
+    left: 22vw;
+    bottom: 0vh;
+}
+
+.poisson-blue-corps2, .poisson-blue-queue2{
+    position: absolute;
+    height: 100vh;
+    right: 0vw;
+    bottom: -10vh;
+    rotate: -40deg;
+}
+
+/*Chapitre 7*/
+
+#chapitre-7 .lola1 {
+    height: 60vh;
+    top: 0;
+    right: 15vw;
+}
+
+#chapitre-7 .billy2 {
+    height: 70vh;
+    top: -5vh;
+    left: 10vw;
+}
+
+#chapitre-7 .poisson-blue-corps, #chapitre-7 .poisson-blue-queue {
+    top: 20vh;
+    height: 30vh;
+    left: 45vw;
+    rotate: -70deg;
+}
+
+.planete {
+    position: absolute;
+}
+
+.nuage {
+    position: absolute;
+    display: none;
+}
+
+.saturne {
+    height: 20vh;
+    left: 17vw;
+    top: 41vh;
+}
+
+.mercure {
+    height: 60vh;
+    right: 17vw;
+    top: 41vh;
+}
+
+.soleil {
+    height: 60vh;
+    left: 30vw;
+    bottom: 0;
 }
