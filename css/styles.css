@@ -393,25 +393,51 @@ section {
     position: absolute;
 }
 
-.nuage {
-    position: absolute;
-    display: none;
-}
+
 
 .saturne {
-    height: 20vh;
-    left: 17vw;
-    top: 41vh;
+    height: 50vh;
+    left: 10vw;
+    top: 20vh;
 }
 
 .mercure {
     height: 60vh;
-    right: 17vw;
-    top: 41vh;
+    right: 25vw;
+    top: 30vh;
 }
 
 .soleil {
     height: 60vh;
-    left: 30vw;
+    left: 20vw;
     bottom: 0;
+}
+
+.nuage {
+    position: absolute;
+    height: 10vh;
+}
+
+.n1 {
+    right: 1vw;
+    top: 15vh;
+    height: 30vh;
+}
+
+.n2 {
+    left: 9vw;
+    top: 32vh;
+    height: 20vh;
+}
+
+.n3 {
+    height: 30vh;
+    bottom: 12vh;
+    left: 24vw;
+}
+
+.n4 {
+    height: 23vh;
+    right: 25vw;
+    bottom: 28vh;
 }
