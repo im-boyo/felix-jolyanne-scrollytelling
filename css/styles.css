@@ -140,7 +140,7 @@ section {
 
 .neptune {  
     position: absolute;
-    right: 0;
+    right: 5vw;
     background-image: url(../img/img_elements_visuels/spritesheet_neptune.png);
     height: 30vw;
     aspect-ratio: 1/1;
@@ -418,6 +418,26 @@ section {
     rotate: -40deg;
 }
 
+.p6-1 {
+    position: absolute;
+    text-align: center;
+    font-size: 4vh;
+    top: 5vh;
+    width: 40vw;
+    left: 40vw;
+    color: white;
+}
+
+.p6-2 {
+    position: absolute;
+    text-align: center;
+    font-size: 4vh;
+    top: 5vh;
+    width: 40vw;
+    left: 40vw;
+    color: white;
+}
+
 /*Chapitre 7*/
 
 #chapitre-7 .lola1 {
@@ -467,7 +487,7 @@ section {
 }
 
 .n1 {
-    right: 1vw;
+    right: 6vw;
     top: 15vh;
     height: 30vh;
 }
@@ -507,4 +527,24 @@ section {
     height: 5vh;
     width: 5vh;
     rotate: -20deg;
+}
+
+.p7-1 {
+    position: absolute;
+    text-align: center;
+    font-size: 4vh;
+    top: 5vh;
+    width: 30vw;
+    left: 3vw;
+    color: white;
+}
+
+.p7-2 {
+    position: absolute;
+    text-align: center;
+    font-size: 4vh;
+    bottom: 5vh;
+    width: 30vw;
+    right: 3vw;
+    color: white;
 }
