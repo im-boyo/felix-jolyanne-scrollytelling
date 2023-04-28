@@ -207,6 +207,14 @@ section {
     top: 30vh
 }
 
+.p1 {
+    position: absolute;
+    text-align: center;
+    font-size: 4vh;
+    left: 5vw;
+    top: 25vh;
+}
+
 /*Chapitre 2*/
 
 .billyroche {
@@ -245,6 +253,16 @@ section {
     left: 15vw;
 }
 
+.p2 {
+    position: absolute;
+    text-align: center;
+    font-size: 4vh;
+    left: 50vw;
+    top: 5vh;
+    width: 100vw;
+    transform: translateX(-50%);
+}
+
 /*Chapitre 3*/
 
 .billyroche2 {
@@ -274,6 +292,15 @@ section {
     bottom: 60vh;
 }
 
+.p3 {
+    position: absolute;
+    text-align: right;
+    font-size: 4vh;
+    right: 5vw;
+    top: 5vh;
+    width: 40vw;
+}
+
 /*Chapitre 4*/
 
 .billynage {
@@ -299,6 +326,17 @@ section {
     opacity: 50%;
 }
 
+.p4 {
+    position: absolute;
+    text-align: center;
+    font-size: 4vh;
+    left: 5vw;
+    top: 50vh;
+    transform: translateY(-50%);
+    width: 40vw;
+    color: white;
+}
+
 /*Chapitre 5*/
 
 .alguesavant {
@@ -322,6 +360,17 @@ section {
 .meduses {
     position: absolute;
     height: 155vh;
+}
+
+.p5 {
+    position: absolute;
+    text-align: left;
+    font-size: 4vh;
+    bottom: 25vh;
+    width: 30vw;
+    left: 50vw;
+    transform: translateX(-50%);
+    color: white;
 }
 
 /*Chapitre 6*/
@@ -393,8 +442,6 @@ section {
 .planete {
     position: absolute;
 }
-
-
 
 .saturne {
     height: 50vh;
