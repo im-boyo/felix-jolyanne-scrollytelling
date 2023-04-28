@@ -220,7 +220,7 @@ section {
     position: absolute;
     height: 10vw;
     right: 40vw;
-    bottom: 50vh;
+    bottom: 60vh;
 }
 
 .coffre_haut {
@@ -264,6 +264,7 @@ section {
     position: absolute;
     height: 170vh;
     top: -35vh;
+    opacity: 100%;
 }
 
 .bulles2 {
@@ -440,4 +441,23 @@ section {
     height: 23vh;
     right: 25vw;
     bottom: 28vh;
+}
+
+.line {
+    position: absolute;
+    height: 15vh;
+    top: 10vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+.bi-star-fill {
+    color: white;
+    position: absolute;
+    top: 20vh;
+    left: 45vw;
+    transform: translateX(-50%);
+    height: 5vh;
+    width: 5vh;
+    rotate: -20deg;
 }
