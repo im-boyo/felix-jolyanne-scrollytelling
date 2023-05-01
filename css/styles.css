@@ -69,6 +69,7 @@ section {
     width: 100vw;
     height: 100vh;
     position: relative;
+    border: 1px solid red;
 }
 
 #chapitre-1 {
@@ -168,7 +169,7 @@ section {
 }
 
 
-/*Chapitre 1*/
+/* ----- Chapitre 1 ----- */
 
 .billy1 {
     position: absolute;
@@ -215,7 +216,7 @@ section {
     top: 25vh;
 }
 
-/*Chapitre 2*/
+/* ----- Chapitre 2 ----- */
 
 .billyroche {
     position: absolute;
@@ -263,7 +264,7 @@ section {
     transform: translateX(-50%);
 }
 
-/*Chapitre 3*/
+/* ----- Chapitre 3 ----- */
 
 .billyroche2 {
     position: absolute;
@@ -301,7 +302,7 @@ section {
     width: 40vw;
 }
 
-/*Chapitre 4*/
+/* ----- Chapitre 4 ----- */
 
 .billynage {
     position: absolute;
@@ -337,7 +338,7 @@ section {
     color: white;
 }
 
-/*Chapitre 5*/
+/* ----- Chapitre 5 ----- */
 
 .alguesavant {
     position: absolute;
@@ -373,7 +374,7 @@ section {
     color: white;
 }
 
-/*Chapitre 6*/
+/* ----- Chapitre 6 ----- */
 
 .billy2 {
     position: absolute;
@@ -438,7 +439,7 @@ section {
     color: white;
 }
 
-/*Chapitre 7*/
+/* ----- Chapitre 7 ------ */
 
 #chapitre-7 .lola1 {
     height: 60vh;
