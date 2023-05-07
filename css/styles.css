@@ -320,7 +320,7 @@ section {
 
 .poisson-groupe {
     position: absolute;
-    height: 80vh;
+    height: 120vh;
     top: 50%; 
     transform: translateY(-50%);
     right: 0;
@@ -356,6 +356,7 @@ section {
     position: absolute;
     height: 100vh;
     left: 5vw;
+    bottom: -20vh;
 }
 
 .meduses {

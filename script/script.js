@@ -1,4 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(MotionPathPlugin);
 
 let anim = gsap.timeline().to(".scroll-down", {y: "10vmin", ease: "none", yoyo: true, repeat: -1, duration: 3})
 
@@ -95,11 +96,66 @@ const animCh4 = gsap.timeline({
       pin: true,
       }
   })
-.from(".poisson-groupe", {x: "160vw", duration: 30, border: "5px solid green"})
+.from(".poisson-groupe", {x: "103vw", duration: 5, repeat: -1, ease: "none", border: "5px solid green"})
 .from(".billynage", {x: "-100vw", duration: 10, border: "5px solid green"}, "<3")
 .from(".lolanage", {x: "-100vw", duration: 10, border: "5px solid green"}, "<")
 
 
+
+
+
+/* ----- Chapitre 5 ------ */
+
+gsap.to(".grotte", {
+  scrollTrigger: {
+    scrub: true,
+    markers: true,
+    trigger: "#chapitre-5"
+  },
+  y: "-300",
+  ease: "none"
+})
+
+gsap.to(".sableP", {
+  scrollTrigger: {
+    scrub: true,
+    markers: true,
+  },
+  y: "900",
+  ease: "none"
+})
+
+gsap.to(".alguesavant", {
+  scrollTrigger: {
+    scrub: true,
+    markers: true,
+    trigger: "#chapitre-5"
+  },
+  x: "2500",
+  y: "600",
+  ease: "none"
+})
+
+gsap.to(".alguesarriere", {
+  scrollTrigger: {
+    scrub: true,
+    markers: true,
+    trigger: "#chapitre-5"
+  },
+  x: "-1900",
+  y: "600",
+  ease: "none"
+})
+
+gsap.to(".meduses", {
+  scrollTrigger: {
+    scrub: true,
+    markers: true,
+    trigger: "#chapitre-5"
+  },
+  y: "-900",
+  ease: "none"
+})
 
 
 
@@ -114,6 +170,7 @@ const animCh6 = gsap.timeline({
       toggleActions: "restart complete reverse reset",
       trigger: "#chapitre-6",
       pin: true,
+      scrub: true
       }
   })
 .fromTo("#chapitre-6 .billy2", {x: "-10vw", opacity: "0%"}, {x: "0vw", opacity: "100%", duration: 3, border: "5px solid green"})
@@ -122,7 +179,7 @@ const animCh6 = gsap.timeline({
 .fromTo("#chapitre-6 .medaillon", {x: "-10vw", opacity: "0%"}, {x: "0vw", opacity: "100%", duration: 3, border: "5px solid green"}, "<")
 .fromTo("#chapitre-6 .poisson-blue-queue", {x: "10%", opacity: "0%"}, {x: "0%", opacity: "100%", duration: 3, border: "5px solid green"}, "<2")
 .fromTo("#chapitre-6 .poisson-blue-corps", {x: "10%", opacity: "0%"}, {x: "0%", opacity: "100%", duration: 3, border: "5px solid green"}, "<")
-.fromTo("#chapitre-6 .billy2", {opacity: "100%", duration: 3, border: "5px solid green"}, {opacity: "0%"})
+.fromTo("#chapitre-6 .billy2", {opacity: "100%", duration: 3, border: "5px solid green"}, {opacity: "0%"}, "<7")
 .fromTo(".p6-1", {opacity: 1}, {opacity: 0}, "<")
 .fromTo("#chapitre-6 .lola2", {opacity: "100%", duration: 3, border: "5px solid green"}, {opacity: "0%"}, "<")
 .to("#chapitre-6 .poisson-blue-corps", {opacity: 0}, "<")
