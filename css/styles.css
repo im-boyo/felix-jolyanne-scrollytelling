@@ -25,6 +25,8 @@
 
 body {
     overflow-x: hidden;
+    width: 1920px;
+    height: 1080px;
 }
 
 p {
@@ -69,7 +71,7 @@ section {
     width: 100vw;
     height: 100vh;
     position: relative;
-    border: 1px solid red;
+/*    border: 1px solid red; */
 }
 
 #chapitre-1 {
@@ -98,6 +100,10 @@ section {
 
 #chapitre-7 {
     background-image: url(../img/img_arriere_plan/background-espace.jpg);
+}
+
+#chapitre-fin {
+    background-image: url(../img/img_arriere_plan/fin.webp);
 }
 
 .sprite-body {
@@ -512,13 +518,20 @@ section {
     bottom: 28vh;
 }
 
-.line {
+#line {
     position: absolute;
     height: 15vh;
     top: 10vh;
     left: 50vw;
     transform: translateX(-50%);
 }
+
+.cls-1 {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 11px;
+  }
 
 .bi-star-fill {
     color: white;
@@ -549,4 +562,16 @@ section {
     width: 30vw;
     right: 3vw;
     color: white;
+}
+
+/* ----- Fin ------ */
+
+.p-fin {
+    position: absolute;
+    color: black;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    border: 1px solid red;
+    padding: 0;
 }
