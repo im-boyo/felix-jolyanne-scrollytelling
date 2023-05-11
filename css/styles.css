@@ -145,28 +145,33 @@ section {
 }
 
 
-.neptune {  
+.bulles-anim {  
     position: absolute;
-    right: 5vw;
-    background-image: url(../img/img_elements_visuels/spritesheet_neptune.png);
-    height: 30vw;
+    background-image: url(../img/img_elements_visuels/bulles-spritesheet.png);
+    height: 10vw;
+    left: 45vw;
+    top: 20vh;
     aspect-ratio: 1/1;
-    animation-name: planet;
-  animation-duration: 4s;
+    animation-name: bulles;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(72);
+  animation-timing-function: steps(80);
   animation-play-state: paused;
-  background-size: 7200%;
+  background-size: 8000%;
+
 
 }
 
-.is-scrolling .neptune { 
+.is-scrolling .bulles-anim { 
     animation-play-state: running;
 }
+.no1 {
+    
+}
 
-@keyframes planet {
+@keyframes bulles {
     from { background-position: 0 0; }
-    to { background-position: -7200% 0; }} 
+    to { background-position: -8000% 0; }} 
 
 .sable {
     position: absolute;
@@ -252,13 +257,6 @@ ul.technique-gsap li{
     right: 10vw;
 }
 
-.bulles1 {
-    position: absolute;
-    height: 10vw;
-    right: 40vw;
-    bottom: 60vh;
-}
-
 .coffre_haut {
     position: absolute;
     height: 15vh;
@@ -313,7 +311,7 @@ ul.technique-gsap li{
     opacity: 100%;
 }
 
-.bulles2 {
+.no2 {
     position: absolute;
     height: 20vw;
     left: 0vw;
@@ -381,9 +379,9 @@ ul.technique-gsap li{
 
 .grotte {
     position: absolute;
-    height: 100vh;
-    left: 5vw;
-    bottom: -20vh;
+    height: 120vh;
+    left: -3vw;
+    bottom: -25vh;
 }
 
 .meduses {

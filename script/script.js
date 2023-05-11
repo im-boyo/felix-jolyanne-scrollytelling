@@ -1,6 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(MotionPathPlugin);
 gsap.registerPlugin(DrawSVGPlugin);
+gsap.registerPlugin(MorphSVGPlugin);
 
 let anim = gsap.timeline().to(".scroll-down", {y: "10vmin", ease: "none", yoyo: true, repeat: -1, duration: 3})
 
@@ -55,9 +56,10 @@ const animCh2 = gsap.timeline({
       toggleActions: "restart complete reverse reset",
       trigger: "#chapitre-2",
       pin: true,
+      scrub: 1
       }
   })
-.fromTo(".bulles1", {y: "30vh", opacity: "0%"}, {y: "0vh", opacity: "100%", duration: 3})
+.fromTo(".bulles-anim.no1", {y: "30vh", opacity: "0%"}, {y: "0vh", opacity: "50%", duration: 5})
 .from(".coffre", {opacity: 0, duration: 3}, "<3")
 .from(".coffre_haut", {y: "15vh", duration: 3})
 .from(".medaillon", {y: "4vh", duration: 2}, "<")
@@ -74,10 +76,11 @@ const animCh3 = gsap.timeline({
       toggleActions: "restart complete reverse reset",
       trigger: "#chapitre-3",
       pin: true,
+      scrub: 2
       }
   })
-.fromTo(".bulles2", {y: "10vh", opacity: "0%"}, {y: "0vh", opacity: "100%", duration: 3})
-.fromTo("#chapitre-3 .lola1", {x: "10vw", opacity: "0%"}, {x: "0%", opacity: "100%", duration: 2}, "<1")
+.fromTo(".bulles-anim.no2", {y: "10vh", opacity: "0%"}, {y: "-10vh", opacity: "100%", duration: 3})
+.fromTo("#chapitre-3 .lola1", {x: "10vw", opacity: "0%"}, {x: "0vw", opacity: "100%", duration: 2}, "<1")
 
 
 
@@ -96,8 +99,8 @@ const animCh4 = gsap.timeline({
       }
   })
 .from(".poisson-groupe", {x: "103vw", duration: 5, repeat: -1, ease: "none"})
-.from(".billynage", {x: "-100vw", duration: 10}, "<3")
-.from(".lolanage", {x: "-100vw", duration: 10}, "<")
+.from(".billynage", {x: "-100vw", duration: 8}, "<3")
+.from(".lolanage", {x: "-100vw", duration: 8}, "<")
 
 
 
@@ -110,7 +113,7 @@ gsap.to(".grotte", {
     scrub: true,
     trigger: "#chapitre-5"
   },
-  y: "-300",
+  y: "-200",
   ease: "none"
 })
 
@@ -118,7 +121,7 @@ gsap.to(".sableP", {
   scrollTrigger: {
     scrub: true,
   },
-  y: "900",
+  y: "990",
   ease: "none"
 })
 
@@ -163,7 +166,7 @@ const animCh6 = gsap.timeline({
       toggleActions: "restart complete reverse reset",
       trigger: "#chapitre-6",
       pin: true,
-      scrub: true
+      scrub: 2
       }
   })
 .fromTo("#chapitre-6 .billy2", {x: "-10vw", opacity: "0%"}, {x: "0vw", opacity: "100%", duration: 3})
