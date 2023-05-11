@@ -165,8 +165,8 @@ section {
 .is-scrolling .bulles-anim { 
     animation-play-state: running;
 }
-.no1 {
-    
+#cloud {
+    visibility: hidden;
 }
 
 @keyframes bulles {
@@ -486,27 +486,72 @@ ul.technique-gsap li{
     rotate: -70deg;
 }
 
-.planete {
+#planete1 {
     position: absolute;
-}
-
-.saturne {
-    height: 50vh;
-    left: 10vw;
+    height: 40vh;
+    left: 5vw;
     top: 20vh;
+    
 }
 
-.mercure {
-    height: 60vh;
-    right: 25vw;
-    top: 30vh;
+#planete1 .cls-1 {
+    fill: #fffaff;
+    stroke: none;
+  }
+
+#planete1 .cls-2 {
+    fill: url(#Dégradé_sans_nom_6);
+  }
+
+#planete2 {
+    position: absolute;
+    height: 30vh;
+    right: 30vw;
+    top: 45vh;
 }
 
-.soleil {
-    height: 60vh;
-    left: 20vw;
-    bottom: 0;
+#planete2 .cls-1 {
+    fill: url(#Dégradé_sans_nom_7);
+    stroke: none;
+  }
+
+#planete3 {
+    position: absolute;
+    height: 40vh;
+    left: 30vw;
+    bottom: 5vh;
 }
+
+#planete3 .cls-1 {
+    clip-path: url(#clippath-1);
+  }
+
+#planete3 .cls-2 {
+    clip-path: url(#clippath);
+  }
+
+#planete3 .cls-3 {
+    fill: none;
+  }
+
+#planete4 {
+    position: absolute;
+    height: 50vh;
+    right: 5vw;
+    top: 5vh;
+}
+
+#planete4 .cls-1 {
+    clip-path: url(#clippath-1);
+  }
+
+#planete4 .cls-2 {
+    clip-path: url(#clippath);
+  }
+
+#planete4 .cls-3 {
+    fill: none;
+  }
 
 .nuage {
     position: absolute;
