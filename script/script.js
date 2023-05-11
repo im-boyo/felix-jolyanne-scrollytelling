@@ -207,16 +207,19 @@ const animCh7 = gsap.timeline({
     align: ".cls-1",
     path: ".cls-1",
     autoRotate: true,
-    alignOrigin: [0.5, 0.5]  
+    alignOrigin: [0.5, 0.5],
+    start: 1,
+    end: 0
   },
   duration: 5,
+  ease:"power1.inOut"
 }, "<")
 .fromTo(
   ".cls-1",
   { drawSVG: "0% 0%"},
   {
     drawSVG:"100% 0%", 
-    duration:1, 
+    duration: 5, 
     ease:"power1.inOut"
   }, "<"
 );
