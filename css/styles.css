@@ -636,6 +636,5 @@ ul.technique-gsap li{
     left: 50vw;
     top: 50vh;
     transform: translate(-50%, -50%);
-    border: 1px solid red;
     padding: 0;
 }
