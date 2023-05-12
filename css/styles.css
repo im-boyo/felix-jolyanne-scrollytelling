@@ -45,7 +45,7 @@ h1 {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/img_arriere_plan/intro.jpg);
+    background-image: url(../img/img_arriere_plan/intro.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -75,31 +75,31 @@ section {
 }
 
 #chapitre-1 {
-    background-image: url(../img/img_arriere_plan/background-eau.jpg);
+    background-image: url(../img/img_arriere_plan/background-eau.webp);
 }
 
 #chapitre-2 {
-    background-image: url(../img/img_arriere_plan/background-eau.jpg);
+    background-image: url(../img/img_arriere_plan/background-eau.webp);
 }
 
 #chapitre-3 {
-    background-image: url(../img/img_arriere_plan/background-eau.jpg);
+    background-image: url(../img/img_arriere_plan/background-eau.webp);
 }
 
 #chapitre-4 {
-    background-image: url(../img/img_arriere_plan/background-eau.jpg);
+    background-image: url(../img/img_arriere_plan/background-eau.webp);
 }
 
 #chapitre-5 {
-    background-image: url(../img/img_arriere_plan/background-eau.jpg);
+    background-image: url(../img/img_arriere_plan/background-eau.webp);
 }
 
 #chapitre-6 {
-    background-image: url(../img/img_arriere_plan/background-grotte.png);
+    background-image: url(../img/img_arriere_plan/background-grotte.webp);
 }
 
 #chapitre-7 {
-    background-image: url(../img/img_arriere_plan/background-espace.jpg);
+    background-image: url(../img/img_arriere_plan/background-espace.webp);
 }
 
 #chapitre-fin {
