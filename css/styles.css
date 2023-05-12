@@ -16,11 +16,13 @@
 @font-face {
     src: url(../polices/Billy_2.0.ttf) format("truetype");
     font-family: "Billy";
+    font-display: swap;
 }
 
 @font-face {
     src: url(../polices/LemonJuice.otf) format("opentype");
     font-family: "LemonJuice";
+    font-display: swap;
 }
 
 body {
@@ -405,6 +407,10 @@ ul.technique-gsap li{
 .meduses {
     position: absolute;
     height: 155vh;
+}
+
+.sableP {
+    width: 100vw;
 }
 
 .p5 {
