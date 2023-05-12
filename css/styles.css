@@ -312,21 +312,21 @@ ul.technique-gsap li{
 
 .billyroche2 {
     position: absolute;
-    height: 200vh;
-    right: -20vw;
-    top: -20vh;
+    height: 150vh;
+    right: 0vw;
+    top: 0vh;
 }
 
 #chapitre-3 .medaillon {
-    left: 17vw;
-    bottom: 25vh;
+    right: 17vw;
+    bottom: 30vh;
     height: 15vh;
 }
 
 .lola1 {
     position: absolute;
-    height: 170vh;
-    top: -35vh;
+    height: 150vh;
+    top: -25vh;
     opacity: 100%;
 }
 
@@ -410,6 +410,7 @@ ul.technique-gsap li{
 }
 
 .sableP {
+    position: absolute;
     width: 100vw;
 }
 
@@ -496,7 +497,7 @@ ul.technique-gsap li{
 #chapitre-7 .lola1 {
     height: 60vh;
     top: 0;
-    right: 15vw;
+    right: 10vw;
 }
 
 #chapitre-7 .billy2 {

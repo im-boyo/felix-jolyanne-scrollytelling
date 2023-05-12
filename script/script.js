@@ -78,7 +78,7 @@ const animCh3 = gsap.timeline({
       }
   })
 .fromTo(".bulles-anim.no2", {y: "10vh", opacity: "0%"}, {y: "-10vh", opacity: "100%", duration: 3})
-.fromTo("#chapitre-3 .lola1", {x: "10vw", opacity: "0%"}, {x: "-20vw", opacity: "100%", duration: 2}, "<1")
+.fromTo("#chapitre-3 .lola1", {x: "10vw", opacity: "0%"}, {x: "-13vw", opacity: "100%", duration: 2}, "<1")
 
 
 
@@ -163,7 +163,7 @@ const animCh6 = gsap.timeline({
       end: "bottom top",
       trigger: "#chapitre-6",
       pin: true,
-      scrub: 2
+      scrub: 1
       }
   })
 .fromTo("#chapitre-6 .billy2", {x: "-10vw", opacity: "0%"}, {x: "0vw", opacity: "100%", duration: 3})
