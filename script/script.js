@@ -53,7 +53,6 @@ const animCh2 = gsap.timeline({
     scrollTrigger: {
         start: "center center",
       end: "bottom top",
-      toggleActions: "restart complete reverse reset",
       trigger: "#chapitre-2",
       pin: true,
       scrub: 1
@@ -73,7 +72,6 @@ const animCh3 = gsap.timeline({
     scrollTrigger: {
         start: "center center",
       end: "bottom top",
-      toggleActions: "restart complete reverse reset",
       trigger: "#chapitre-3",
       pin: true,
       scrub: 2
@@ -163,7 +161,6 @@ const animCh6 = gsap.timeline({
     scrollTrigger: {
         start: "center center",
       end: "bottom top",
-      toggleActions: "restart complete reverse reset",
       trigger: "#chapitre-6",
       pin: true,
       scrub: 2

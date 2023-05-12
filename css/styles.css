@@ -204,6 +204,10 @@ ul.technique-gsap{
     position: absolute;
     z-index: 1000;
     top: 0;
+    right: 0;
+}
+
+ul.technique-gsap:nth-child(even) {
     left: 0;
 }
 
@@ -572,35 +576,6 @@ svg {
 
   #planete4path {
     fill: #ffffff;
-}
-
-.nuage {
-    position: absolute;
-    height: 10vh;
-}
-
-.n1 {
-    right: 6vw;
-    top: 15vh;
-    height: 30vh;
-}
-
-.n2 {
-    left: 9vw;
-    top: 32vh;
-    height: 20vh;
-}
-
-.n3 {
-    height: 30vh;
-    bottom: 12vh;
-    left: 24vw;
-}
-
-.n4 {
-    height: 23vh;
-    right: 25vw;
-    bottom: 28vh;
 }
 
 #line {

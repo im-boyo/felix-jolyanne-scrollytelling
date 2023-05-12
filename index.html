@@ -40,8 +40,8 @@
         <p class="p1">Billy veut aller trouver le légendaire poisson rouge. <br> Il essaye de recruter autrui pour son aventure, <br> mais sans aucune chance.</p>
 
         <ul class="technique-gsap"> 
+    <li>timeline 3 étapes</li> 
     <li>anim: position x et opacité</li> 
-    <li></li> 
     <li>scrollTrigger 
                 <ul> 
                     <li>trigger = #chapitre-1</li> 
@@ -49,6 +49,7 @@
                     <li>toggleActions = anim joue en entrant dans la section, se complète en sortant de la section, joue a l'envers en sortant par en haut, retounre au début en sortant de la section vers le haut  </li> 
                 </ul> 
             </li> 
+            <li>spritesheet algues s'active au défilement de la page</li> 
         </ul> 
 
     </section>
@@ -71,15 +72,18 @@
         </div>
         <p class="p2">Déçu, Billy s'asseoit sur une roche, reposant son menton sur ses mains. <br><br> Soudainement, il aperçoit un coffre proche de lui, et il voit un médaillon sortir du trésor.</p>
 
-        <ul class="technique-gsap"> 
-    <li>...</li> 
-    <li>...</li> 
+        <ul class="technique-gsap">
+    <li>timeline 4 étapes</li> 
+    <li>anim: position y, opacité</li> 
     <li>scrollTrigger 
                 <ul> 
-                    <li>trigger = </li> 
-                    <li>...</li> 
+                    <li>trigger = #chapitre-2</li> 
+                    <li>pin = true</li> 
+                    <li>scrub = true</li> 
                 </ul> 
             </li> 
+            <li>spritesheet bulles s'active au défilement de la page</li> 
+            <li>spritesheet algues s'active au défilement de la page</li> 
         </ul> 
 
     </section>
@@ -94,14 +98,16 @@
         <p class="p3">Dans le verre du médaillon, Billy remarque la réflection d'une jeune fille aux cheveux rouges. Curieuse, elle lui demande ce qu'il fait seul, et il lui raconte ses péripéties d'aujourd'hui. <br><br> Billy l'invite à le rejoindre pour l'aventure, et elle accepte avec plaisir.</p>
 
         <ul class="technique-gsap"> 
-    <li>...</li> 
-    <li>...</li> 
+    <li>timeline 2 étapes</li> 
+    <li>anim: position x, opacité</li> 
     <li>scrollTrigger 
                 <ul> 
-                    <li>trigger = </li> 
-                    <li>...</li> 
+                    <li>trigger = #chapitre-3</li> 
+                    <li>pin = true</li> 
+                    <li>scrub = true</li> 
                 </ul> 
             </li> 
+            <li>spritesheet bulles s'active au défilement de la page</li> 
         </ul> 
 
     </section>
@@ -115,12 +121,13 @@
         <p class="p4">Après une brève introduction, la sirène se présente sous le nom de Lola. <br> Par la suite, les deux jeunes aventuriers nagent à travers l'océan, à la recherche de la grotte du légendaire poisson rouge.</p>
 
         <ul class="technique-gsap"> 
-            <li>...</li> 
-            <li>...</li> 
+            <li>timeline 3 étapes</li> 
+            <li>anim: position x</li> 
             <li>scrollTrigger 
                 <ul> 
-                    <li>trigger = </li> 
-                    <li>...</li> 
+                    <li>trigger = #chapitre-4</li> 
+                    <li>pin = true</li> 
+                    <li>toggleActions = anim joue en entrant dans la section, se complète en sortant de la section, joue a l'envers en sortant par en haut, retounre au début en sortant de la section vers le haut  </li> 
                 </ul> 
             </li> 
         </ul> 
@@ -138,12 +145,12 @@
         <img src="img/img_elements_visuels/algue-avant-parallax.png" alt="alguesavant" class="alguesavant">
 
         <ul class="technique-gsap"> 
-            <li>...</li> 
-            <li>...</li> 
+            <li>effet parralax</li> 
+            <li>anim: position x, position y</li> 
             <li>scrollTrigger 
                 <ul> 
-                    <li>trigger = </li> 
-                    <li>...</li> 
+                    <li>trigger = #chapitre-5</li> 
+                    <li>scrub = true</li> 
                 </ul> 
             </li> 
         </ul> 
@@ -170,12 +177,13 @@
         <p class="p6-2">Billy présente le médaillon au poisson rouge et lui dit qu'il aimerait en savoir plus sur l'univers qui se retrouve à l'interieur. Le poisson hoche la tête avant de lui répondre qu'il pourrait faire mieux que simplement le lui expliquer.</p>
 
         <ul class="technique-gsap"> 
-            <li>...</li> 
-            <li>...</li> 
+            <li>timeline 16 étapes</li> 
+            <li>anim: position x, opacité</li> 
             <li>scrollTrigger 
                 <ul> 
-                    <li>trigger = </li> 
-                    <li>...</li> 
+                    <li>trigger = #chapitre-6</li> 
+                    <li>pin = true</li>
+                    <li>scrub = true</li> 
                 </ul> 
             </li> 
         </ul> 
@@ -282,12 +290,13 @@
         <p class="p7-2">Les jeunes enfants sont émmerveillés par l'univers autour d'eux, joyeux d'avoir complété leur aventure.</p>
 
         <ul class="technique-gsap"> 
-    <li>...</li> 
-    <li>...</li> 
+    <li>timeline de 9 étapes</li> 
+    <li>anim: position y, motion path, draw svg, morph svg</li> 
     <li>scrollTrigger 
                 <ul> 
-                    <li>trigger = </li> 
-                    <li>...</li> 
+                    <li>trigger = #chapitre-7</li> 
+                    <li>pin = true</li> 
+                    <li>toggleActions = anim joue en entrant dans la section, se complète en sortant de la section, joue a l'envers en sortant par en haut, retounre au début en sortant de la section vers le haut  </li> 
                 </ul> 
             </li> 
         </ul> 
