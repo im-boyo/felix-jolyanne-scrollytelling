@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(MotionPathPlugin);
-gsap.registerPlugin(DrawSVGPlugin);
-gsap.registerPlugin(MorphSVGPlugin);
+/*gsap.registerPlugin(DrawSVGPlugin);
+gsap.registerPlugin(MorphSVGPlugin); */
 
 let anim = gsap.timeline().to(".scroll-down", {y: "10vmin", ease: "none", yoyo: true, repeat: -1, duration: 3})
 
@@ -214,7 +214,7 @@ const animCh7 = gsap.timeline({
   duration: 5,
   ease:"power1.inOut"
 }, "<")
-.fromTo(
+/*.fromTo(
   ".cls-1",
   { drawSVG: "0% 0%"},
   {
@@ -227,7 +227,7 @@ const animCh7 = gsap.timeline({
 .to("#planete2path", {morphSVG: "#cloud"}, "<")
 .to("#planete3path", {morphSVG: "#cloud"}, "<")
 .to("#planete4path", {morphSVG: "#cloud"}, "<")
-
+*/
 
 
 
