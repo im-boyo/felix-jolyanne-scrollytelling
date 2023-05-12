@@ -24,3 +24,6 @@ Les charges utiles larges du réseau utilisent beaucoup de données, ce qui peut
 Afin d'optimiser la taille des charges utiles, je vais minifier mes fichiers CSS et JavaScript et aussi utiliser des fichiers WebP au lieu de JPEG ou de PNG.
 ### Résultat
 ✔️ J'avais précédemment converti mes images en WebP, donc cette partie n'avait pas à être refaite. La minification de mes fichers s'est bien fait. Pour le CSS, j'ai utilisé [WillPeavy](https://www.willpeavy.com/tools/minifier/) et je n'ai eu aucune difficulté avec. Cependant, la partie avec le fichier JavaScript m'a causé quelques problèmes (erreurs dans la partie minifiée), mais en utilisant [Toptal](https://www.toptal.com/developers/javascript-minifier) au lieu de WillPeavy, le tout s'est reglé.
+
+## Rapport projet ScrollyTelling après optimisation
+[Page Speed Insights - Rapport du 12 mai 2023, 12:39:56](https://pagespeed.web.dev/analysis/https-im-boyo-github-io-testa-radovanovic-felix-scrollytelling/hwfs1xtc59?form_factor=mobile)
