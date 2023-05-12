@@ -80,7 +80,7 @@ const animCh3 = gsap.timeline({
       }
   })
 .fromTo(".bulles-anim.no2", {y: "10vh", opacity: "0%"}, {y: "-10vh", opacity: "100%", duration: 3})
-.fromTo("#chapitre-3 .lola1", {x: "10vw", opacity: "0%"}, {x: "0vw", opacity: "100%", duration: 2}, "<1")
+.fromTo("#chapitre-3 .lola1", {x: "10vw", opacity: "0%"}, {x: "-20vw", opacity: "100%", duration: 2}, "<1")
 
 
 
@@ -225,7 +225,11 @@ const animCh7 = gsap.timeline({
     duration: 5, 
     ease:"power1.inOut"
   }, "<"
-);
+)
+.to("#planete1path", {morphSVG: "#cloud"})
+.to("#planete2path", {morphSVG: "#cloud"}, "<")
+.to("#planete3path", {morphSVG: "#cloud"}, "<")
+.to("#planete4path", {morphSVG: "#cloud"}, "<")
 
 
 

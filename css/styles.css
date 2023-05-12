@@ -166,8 +166,19 @@ section {
     animation-play-state: running;
 }
 #cloud {
+    position: absolute;
+    right: 0;
     visibility: hidden;
+    width: 100%;
 }
+
+#cloud .cls-1 {
+    fill: #fff;
+    position: absolute;
+    right: 0;
+}
+
+
 
 @keyframes bulles {
     from { background-position: 0 0; }
@@ -246,6 +257,7 @@ ul.technique-gsap li{
     font-size: 4vh;
     left: 5vw;
     top: 25vh;
+    color: white;
 }
 
 /* ----- Chapitre 2 ----- */
@@ -253,8 +265,8 @@ ul.technique-gsap li{
 .billyroche {
     position: absolute;
     height: 100vh;
-    bottom: -14vh;
-    right: 10vw;
+    bottom: -10vh;
+    right: -10vw;
 }
 
 .coffre_haut {
@@ -287,6 +299,7 @@ ul.technique-gsap li{
     top: 5vh;
     width: 100vw;
     transform: translateX(-50%);
+    color: white;
 }
 
 /* ----- Chapitre 3 ----- */
@@ -294,7 +307,7 @@ ul.technique-gsap li{
 .billyroche2 {
     position: absolute;
     height: 200vh;
-    right: 7vw;
+    right: -20vw;
     top: -20vh;
 }
 
@@ -325,6 +338,7 @@ ul.technique-gsap li{
     right: 5vw;
     top: 5vh;
     width: 40vw;
+    color: white;
 }
 
 /* ----- Chapitre 4 ----- */
@@ -338,9 +352,9 @@ ul.technique-gsap li{
 
 .lolanage {
     position: absolute;
-    height: 80vh;
+    height: 70vh;
     top: 10vh;
-    right: 7vw;
+    right: 0vw;
 }
 
 .poisson-groupe {
@@ -411,7 +425,9 @@ ul.technique-gsap li{
 
 .lola2 {
     position: absolute;
-    height: 100vh;
+    height: 90vh;
+    top: 6vh;
+    left: -8vw;
 }
 
 #chapitre-6 .medaillon {
@@ -486,6 +502,10 @@ ul.technique-gsap li{
     rotate: -70deg;
 }
 
+svg {
+    display: block;
+}
+
 #planete1 {
     position: absolute;
     height: 40vh;
@@ -495,13 +515,16 @@ ul.technique-gsap li{
 }
 
 #planete1 .cls-1 {
-    fill: #fffaff;
     stroke: none;
   }
 
 #planete1 .cls-2 {
     fill: url(#Dégradé_sans_nom_6);
   }
+
+#planete1path {
+    fill: #ffffff;    
+}
 
 #planete2 {
     position: absolute;
@@ -511,9 +534,13 @@ ul.technique-gsap li{
 }
 
 #planete2 .cls-1 {
-    fill: url(#Dégradé_sans_nom_7);
+    fill: url(#linear-gradient);
     stroke: none;
   }
+
+#planete2path {
+    fill: #ffffff;
+}
 
 #planete3 {
     position: absolute;
@@ -523,16 +550,13 @@ ul.technique-gsap li{
 }
 
 #planete3 .cls-1 {
-    clip-path: url(#clippath-1);
+    fill: url(#linear-gradient3);
+    stroke: none;
   }
 
-#planete3 .cls-2 {
-    clip-path: url(#clippath);
-  }
-
-#planete3 .cls-3 {
-    fill: none;
-  }
+#planete3path {
+    fill: #ffffff;
+}
 
 #planete4 {
     position: absolute;
@@ -542,16 +566,13 @@ ul.technique-gsap li{
 }
 
 #planete4 .cls-1 {
-    clip-path: url(#clippath-1);
+    fill: url(#linear-gradient4);
+    stroke: none;
   }
 
-#planete4 .cls-2 {
-    clip-path: url(#clippath);
-  }
-
-#planete4 .cls-3 {
-    fill: none;
-  }
+  #planete4path {
+    fill: #ffffff;
+}
 
 .nuage {
     position: absolute;
